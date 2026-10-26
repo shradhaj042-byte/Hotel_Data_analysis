@@ -1,0 +1,6 @@
+Ipykernel
+Pandas
+numpy
+Matplotlib
+Seaborn
+Plotly
