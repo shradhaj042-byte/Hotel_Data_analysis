@@ -1,4 +1,4 @@
-# 🏨 Hotel Bookings Analysis: Why Do Guests Cancel, and What Does It Cost?
+# 🏨 Hotel Bookings Analysis:
 
 **Tools:** Python, pandas, NumPy, Matplotlib, Seaborn, Plotly, SciPy
 **Dataset:** `hotel_bookings_2.csv` (Resort Hotel bookings, about 7,300 rows, 32 columns)
