@@ -30,19 +30,19 @@ planned staff, food and cleaning for that guest.
 | Q6 | Which guests cancel? (country, kids, special requests) | Guests who make special requests or changes are more committed. |
 | Q7 | How much revenue is lost? | Lost revenue is large compared with kept revenue. |
 
-## How to run
+## 4.How to run
 1. Put `hotel_bookings_2.csv` in the same folder as `hotel_bookings_analysis.ipynb`.
 2. Install the libraries: `pip install pandas numpy matplotlib seaborn plotly scipy jupyter`
 3. Run `jupyter notebook`, open `hotel_bookings_analysis.ipynb` and choose **Kernel > Restart & Run All**.
 4. Charts are saved automatically into the `charts/` folder. The Plotly charts are interactive inside Jupyter.
 
-## Project steps
+## 5. Project steps
 1. Business problem, assumptions, questions and hypotheses
 2. Data cleaning (missing values, duplicates, invalid rows, dates, outliers, new columns)
 3. Analysis with charts for 7 research questions, plus statistical tests (chi-square, Mann-Whitney)
 4. Findings, recommendations and limitations
 
-### Cleaning summary
+### 6. Cleaning summary
 | Step | What we did |
 |---|---|
 | Missing values | Dropped `company`, filled `agent` with 0 and `country` with "Unknown" |
@@ -79,3 +79,6 @@ planned staff, food and cleaning for that guest.
 - Several variables (parking, room change) are probably filled in only once a guest arrives, so they are **flags, not proven causes**. The same caution applies to special requests and booking changes.
 - **Next step:** build a simple **machine-learning model** (for example, logistic regression or random forest) to predict cancellation risk per booking.
 - **Next step:** once you learn SQL, repeat the key questions with `GROUP BY` queries and compare the answers.
+## Tech stack
+
+Pandas · NumPy · Matplotlib · Seaborn · GeoPandas · Jupyter Notebook
